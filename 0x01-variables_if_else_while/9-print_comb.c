@@ -14,7 +14,7 @@ n++
 )
 {
 putchar(n);
-if 
+if
 (n == 57)
 continue;
 putchar(',');
