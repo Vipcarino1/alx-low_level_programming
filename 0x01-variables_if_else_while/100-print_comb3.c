@@ -12,13 +12,14 @@ int main(void)
 	{
 		while (j <= '9')
 		{
-			if (!( i > j))
+			if (!(i > j))
 			{
 				if (i == j)
 				{
 					j++;
 				}
-				else{
+				else
+				{
 				putchar(i);
 				putchar(j);
 				if ((i == '8') && (j == '9'))
