@@ -3,7 +3,7 @@
  * _strstr - Entry point
  * @haystack: input
  * @needle: input
- * Return: 0
+ * Return: Always 0 (Success)
  */
 char *_strstr(char *haystack, char *needle)
 {
@@ -17,6 +17,7 @@ char *_strstr(char *haystack, char *needle)
 			l++;
 			p++;
 		}
+
 		if (*p == '\0')
 			return (haystack);
 	}
